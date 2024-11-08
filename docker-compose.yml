@@ -8,7 +8,7 @@ services:
     networks:
       - app-network
 
-  edhukkudalab:  # New service for another repository
+  devopslab2:  # New service for another repository
     image: avinash73/another-app:latest  # Replace with your actual image
     ports:
       - "8082:8080"  # Map host port 8082 to container port 8080
