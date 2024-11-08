@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  edhukkuda:
+  devopslab:
     image: avinash73/demo-app:latest
     ports:
       - "8081:8080"
